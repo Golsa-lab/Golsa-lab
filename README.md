@@ -7,17 +7,13 @@
   <img src="https://img.shields.io/badge/focus-AI%20engineering-8C1C3A?style=flat-square&labelColor=5E1224" alt="Focus: AI engineering">
 </p>
 
-<p align="center"><i>
-I build LLM agents that call typed tools instead of making things up,<br>
-the full-stack apps around them, and the data pipelines that feed them.
-</i></p>
 
 ---
 
 ### ✦ About
 
-- 🎓 **M.Sc. Automation Engineering** at Politecnico di Milano (2026–), admitted directly after my B.Sc. there (2022–2026)
-- 🤖 Main interest: **AI engineering**, meaning LLM agents with tool / function calling, model training and evaluation, and checking results independently
+- 🎓 **M.Sc. Automation Engineering** at Politecnico di Milano (2026–) and B.Sc. in Automation and Control Engineering (2022–2026) at Politecnico di Milano
+- 🤖 Main interest: **AI engineering**, meaning LLM agents with tool / function calling, model training and evaluation, and checking results independently, agentic reality
 - 🧱 Hands-on full-stack: **Next.js / React / TypeScript**, **PostgreSQL** schemas and SQL, **Python** ETL, **Docker**
 - 🔌 Background in control and embedded systems, so I'm comfortable where software meets sensors and actuators
 
@@ -54,14 +50,6 @@ the full-stack apps around them, and the data pipelines that feed them.
 | [**Sleepy Sensor Node**](https://github.com/Golsa-lab/iot-project-wokwi-esp32) | ESP32 + PIR + LDR, ESP-NOW broadcast, timer deep sleep, per-phase `micros()` timing |
 | [**OpenExo** (fork)](https://github.com/Golsa-lab/OpenExo) | Fork of the open-source exoskeleton platform (Teensy firmware, Python GUI, apps) |
 
-<details>
-<summary><b>Not on GitHub (yet)</b></summary>
-<br>
-
-- **AutoPrice Analyzer** (group project, PyTorch). A multi-branch network that assigns a car to a price band from its image and attributes. I wrote the **feature sub-network**, a fully-connected regressor on make, fuel, year, km and gearbox, trained with MSE + Adam.
-- **Wearable denture locator**. Event-driven **BLE** firmware with a wake-on-motion state machine. I modelled 24-hour power consumption and IEEE 802.15.4 / frame-slotted ALOHA efficiency.
-
-</details>
 
 ---
 
