@@ -30,46 +30,18 @@ the full-stack apps around them, and the data pipelines that feed them.
 
 ---
 
-### ✦ Featured: an LLM agent you can audit
-
-<a href="https://github.com/Golsa-lab/air-quality-mvp"><img src="assets/card-air-quality.svg" alt="Air Quality MVP" width="49%" align="right"></a>
-
-**[Air Quality MVP](https://github.com/Golsa-lab/air-quality-mvp)** analyses ARPA Lombardia air-quality data, and you can ask it
-questions in plain Italian.
-
-The model **never sees the database and never writes SQL**. It chooses one of **5 typed tools**. Invalid arguments are
-rejected and sent back so the model can correct itself, and every answer shows the tools that produced it.
-The dashboard and the agent go through the **same domain layer**, so they cannot give different numbers for the same question.
-A separate pandas script recomputes the SQL aggregations from the raw CSVs as an independent check.
-
-<br clear="right">
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FBF6F7','primaryTextColor':'#1A1A1D','primaryBorderColor':'#8C1C3A','lineColor':'#8C1C3A','secondaryColor':'#F3E3E7','tertiaryColor':'#FFFFFF','fontFamily':'Helvetica, Arial, sans-serif'}}}%%
-flowchart LR
-    U([question]) --> L[LLM<br/>OpenAI-compatible]
-    L -->|picks a tool + args| T{typed tools ×5}
-    T -->|invalid args| L
-    T --> D[domain layer<br/>single source of truth]
-    D --> P[(PostgreSQL)]
-    D --> W[dashboard]
-    D -->|numbers only| L
-    L --> A([answer + tool trace])
-```
-
----
-
 ### ✦ Projects
 
 <p align="center">
+  <a href="https://github.com/Golsa-lab/air-quality-mvp"><img src="assets/card-air-quality.svg" alt="Air Quality MVP" width="49%"></a>
   <a href="https://github.com/Golsa-lab/iot-nodered"><img src="assets/card-nodered.svg" alt="ZigBee to MQTT to ThingSpeak" width="49%"></a>
+</p>
+<p align="center">
   <a href="https://github.com/Golsa-lab/iotChallenge-2--IoTScope-Network-Protocol-Analysis-Platform"><img src="assets/card-iotscope.svg" alt="IoTScope" width="49%"></a>
-</p>
-<p align="center">
   <a href="https://github.com/Golsa-lab/dc-motor-drive-tramway"><img src="assets/card-dc-motor.svg" alt="DC Motor Drive" width="49%"></a>
-  <a href="https://github.com/Golsa-lab/iot-project-wokwi-esp32"><img src="assets/card-iot.svg" alt="Sleepy Sensor Node" width="49%"></a>
 </p>
 <p align="center">
+  <a href="https://github.com/Golsa-lab/iot-project-wokwi-esp32"><img src="assets/card-iot.svg" alt="Sleepy Sensor Node" width="49%"></a>
   <a href="https://github.com/Golsa-lab/OpenExo"><img src="assets/card-openexo.svg" alt="OpenExo fork" width="49%"></a>
 </p>
 
@@ -98,7 +70,11 @@ flowchart LR
 <p>
   <b>AI / ML</b>&nbsp;
   <img src="https://img.shields.io/badge/LLM%20tool%20calling-FBF6F7?style=flat-square" alt="LLM tool calling">
+  <img src="https://img.shields.io/badge/neural%20networks-FBF6F7?style=flat-square" alt="Neural networks">
   <img src="https://img.shields.io/badge/PyTorch-FBF6F7?style=flat-square&logo=pytorch&logoColor=8C1C3A" alt="PyTorch">
+  <img src="https://img.shields.io/badge/scikit--learn-FBF6F7?style=flat-square&logo=scikitlearn&logoColor=8C1C3A" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/supervised%20learning-FBF6F7?style=flat-square" alt="Supervised learning">
+  <img src="https://img.shields.io/badge/unsupervised%20learning-FBF6F7?style=flat-square" alt="Unsupervised learning">
   <img src="https://img.shields.io/badge/SVM-FBF6F7?style=flat-square" alt="SVM">
   <img src="https://img.shields.io/badge/pandas-FBF6F7?style=flat-square&logo=pandas&logoColor=8C1C3A" alt="pandas">
 </p>
