@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Golsa Shokri: AI & LLM engineering, full-stack, automation" width="100%">
+  <img src="assets/banner.svg" alt="Golsa Shokri, AI engineer" width="100%">
 </p>
 
 <p align="center">
@@ -103,5 +103,5 @@
 
 <p align="center">
   <sub>🇮🇹 Italian C2 · 🇬🇧 English C1 · 🇩🇪 German A1</sub><br>
-  <sub>Politecnico di Milano · Milano / Brescia</sub>
+  <sub>Politecnico di Milano</sub>
 </p>
