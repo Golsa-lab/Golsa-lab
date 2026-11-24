@@ -7,17 +7,13 @@
   <img src="https://img.shields.io/badge/focus-AI%20engineering-8C1C3A?style=flat-square&labelColor=5E1224" alt="Focus: AI engineering">
 </p>
 
-<p align="center"><i>
-I build LLM agents that call typed tools instead of making things up,<br>
-the full-stack apps around them, and the data pipelines that feed them.
-</i></p>
 
 ---
 
 ### ✦ About
 
-- 🎓 **M.Sc. Automation Engineering** at Politecnico di Milano (2026–), admitted directly after my B.Sc. there (2022–2026)
-- 🤖 Main interest: **AI engineering**, meaning LLM agents with tool / function calling, model training and evaluation, and checking results independently
+- 🎓 **M.Sc. Automation Engineering** at Politecnico di Milano (2026–) and B.Sc. in Automation and Control Engineering (2022–2026) at Politecnico di Milano
+- 🤖 Main interest: **AI engineering**, meaning LLM agents with tool / function calling, model training and evaluation, and checking results independently, agentic reality
 - 🧱 Hands-on full-stack: **Next.js / React / TypeScript**, **PostgreSQL** schemas and SQL, **Python** ETL, **Docker**
 - 🔌 Background in control and embedded systems, so I'm comfortable where software meets sensors and actuators
 
