@@ -82,14 +82,6 @@ flowchart LR
 | [**Sleepy Sensor Node**](https://github.com/Golsa-lab/iot-project-wokwi-esp32) | ESP32 + PIR + LDR, ESP-NOW broadcast, timer deep sleep, per-phase `micros()` timing |
 | [**OpenExo** (fork)](https://github.com/Golsa-lab/OpenExo) | Fork of the open-source exoskeleton platform (Teensy firmware, Python GUI, apps) |
 
-<details>
-<summary><b>Not on GitHub (yet)</b></summary>
-<br>
-
-- **AutoPrice Analyzer** (group project, PyTorch). A multi-branch network that assigns a car to a price band from its image and attributes. I wrote the **feature sub-network**, a fully-connected regressor on make, fuel, year, km and gearbox, trained with MSE + Adam.
-- **Wearable denture locator**. Event-driven **BLE** firmware with a wake-on-motion state machine. I modelled 24-hour power consumption and IEEE 802.15.4 / frame-slotted ALOHA efficiency.
-
-</details>
 
 ---
 
