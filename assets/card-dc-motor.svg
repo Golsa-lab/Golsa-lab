@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="580" height="190" viewBox="0 0 580 190">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0B0C"/><stop offset="1" stop-color="#2A0D16"/></linearGradient></defs>
-  <rect x="1" y="1" width="578" height="188" rx="14" fill="url(#bg)" stroke="#8C1C3A" stroke-width="1.5"/>
-  <rect x="28" y="30" width="36" height="3" fill="#8C1C3A"/>
-  <text x="28" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#FAF7F5">DC Motor Drive</text>
-  <text x="28" y="104" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#D8A7B1">cascade speed control of a 25-tonne tramway</text>
-  <text x="28" y="156" font-family="Menlo, Consolas, monospace" font-size="12" fill="#FAF7F5" fill-opacity=".6" letter-spacing="1">MATLAB · SIMULINK · FIELD WEAKENING</text>
-  <text x="548" y="156" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#D8A7B1">view →</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
+  <rect x="1" y="1" width="578" height="198" rx="14" fill="#FFFFFF" stroke="#EAD0D6" stroke-width="2"/>
+  <path d="M1 15a14 14 0 0 1 14-14h0v198h0a14 14 0 0 1-14-14z" fill="#8C1C3A"/>
+  <text x="36" y="40" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#8C1C3A">CONTROL · ELECTRICAL DRIVES</text>
+  <text x="36" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#1A1A1D">DC Motor Drive</text>
+  <text x="36" y="114" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#5E1224">cascade speed control of a 25-tonne tram</text>
+  <line x1="36" y1="140" x2="544" y2="140" stroke="#F3E3E7"/>
+  <text x="36" y="170" font-family="Menlo, Consolas, monospace" font-size="12" fill="#1A1A1D" fill-opacity=".55" letter-spacing=".5">MATLAB · Simulink · field weakening</text>
+  <text x="548" y="170" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8C1C3A">view →</text>
 </svg>

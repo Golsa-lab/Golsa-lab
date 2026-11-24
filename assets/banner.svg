@@ -1,25 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B0B0C"/><stop offset="0.6" stop-color="#1A0A0F"/><stop offset="1" stop-color="#5E1224"/>
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#FBF6F7"/><stop offset="1" stop-color="#F3E3E7"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04"/>
+      <path d="M40 0H0V40" fill="none" stroke="#000" stroke-opacity="0.035"/>
     </pattern>
-    <linearGradient id="wave" x1="0" x2="1"><stop offset="0" stop-color="#D8A7B1" stop-opacity="0"/><stop offset=".5" stop-color="#F3DCE1"/><stop offset="1" stop-color="#D8A7B1" stop-opacity="0"/></linearGradient>
+    <style>
+      .pill{fill:#FFFFFF;stroke:#8C1C3A;stroke-width:1.3}
+      .pt{font-family:Menlo,Consolas,monospace;font-size:12px;fill:#5E1224;text-anchor:middle}
+      .ln{stroke:#8C1C3A;stroke-width:1.3;fill:none;stroke-dasharray:4 4}
+    </style>
   </defs>
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
-  <!-- step response motif -->
-  <g transform="translate(700,70)" fill="none">
-    <path d="M0 170 H60 V20 H440" stroke="#8C1C3A" stroke-width="1.6" stroke-dasharray="5 5"/>
-    <path d="M0 170 H60 C80 170 90 10 120 6 C150 2 160 30 185 24 C210 18 220 20 250 20 H440" stroke="url(#wave)" stroke-width="2.6"/>
-    <text x="440" y="-8" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#D8A7B1" fill-opacity=".8">reference tracked · error → 0</text>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)" stroke="#EAD0D6" stroke-width="2"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+
+  <!-- agent motif: an LLM that only talks to typed tools -->
+  <g transform="translate(930,160)">
+    <circle r="110" fill="none" stroke="#8C1C3A" stroke-opacity=".08"/>
+    <circle r="78" fill="none" stroke="#8C1C3A" stroke-opacity=".14"/>
+    <path class="ln" d="M0 0L-150 -88M0 0L150 -88M0 0L-160 70M0 0L160 70M0 0L0 115"/>
+    <circle r="38" fill="#5E1224"/>
+    <text y="5" font-family="Georgia, serif" font-size="17" fill="#FFFFFF" text-anchor="middle">LLM</text>
+    <rect class="pill" x="-222" y="-104" width="144" height="30" rx="15"/><text class="pt" x="-150" y="-84">get_trend()</text>
+    <rect class="pill" x="78" y="-104" width="144" height="30" rx="15"/><text class="pt" x="150" y="-84">get_exceedances()</text>
+    <rect class="pill" x="-232" y="56" width="144" height="30" rx="15"/><text class="pt" x="-160" y="76">PostgreSQL</text>
+    <rect class="pill" x="88" y="56" width="144" height="30" rx="15"/><text class="pt" x="160" y="76">PyTorch · SVM</text>
+    <rect class="pill" x="-62" y="112" width="124" height="30" rx="15"/><text class="pt" x="0" y="132">ESP32 · MQTT</text>
   </g>
-  <g font-family="Georgia, 'Times New Roman', serif" fill="#FAF7F5">
-    <text x="60" y="128" font-size="58" letter-spacing="1">Golsa Shokri</text>
-    <text x="62" y="170" font-size="22" font-style="italic" fill="#D8A7B1">engineer · control systems, electrical drives &amp; embedded IoT</text>
+
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="60" y="126" font-size="60" fill="#1A1A1D" letter-spacing="1">Golsa Shokri</text>
+    <text x="62" y="170" font-size="23" font-style="italic" fill="#8C1C3A">AI &amp; LLM engineering · full-stack · automation</text>
   </g>
-  <rect x="62" y="200" width="64" height="3" fill="#8C1C3A"/>
-  <text x="62" y="236" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#FAF7F5" fill-opacity="0.6" letter-spacing="1.6">POLITECNICO DI MILANO · MATLAB · SIMULINK · ESP32</text>
+  <rect x="62" y="198" width="64" height="3" fill="#8C1C3A"/>
+  <text x="62" y="236" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1A1A1D" fill-opacity="0.6" letter-spacing="1.6">AUTOMATION ENGINEERING · POLITECNICO DI MILANO</text>
+  <text x="62" y="262" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1A1A1D" fill-opacity="0.6" letter-spacing="1.6">MILANO · BRESCIA</text>
 </svg>

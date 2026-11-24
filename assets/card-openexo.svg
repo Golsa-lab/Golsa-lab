@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
+  <rect x="1" y="1" width="578" height="198" rx="14" fill="#FFFFFF" stroke="#EAD0D6" stroke-width="2"/>
+  <path d="M1 15a14 14 0 0 1 14-14h0v198h0a14 14 0 0 1-14-14z" fill="#8C1C3A"/>
+  <text x="36" y="40" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#8C1C3A">ROBOTICS · TEAM PROJECT</text>
+  <text x="36" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#1A1A1D">OpenExo (fork)</text>
+  <text x="36" y="114" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#5E1224">wearable exoskeleton firmware &amp; tooling</text>
+  <line x1="36" y1="140" x2="544" y2="140" stroke="#F3E3E7"/>
+  <text x="36" y="170" font-family="Menlo, Consolas, monospace" font-size="12" fill="#1A1A1D" fill-opacity=".55" letter-spacing=".5">C++ · Teensy · Python GUI</text>
+  <text x="548" y="170" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8C1C3A">view →</text>
+</svg>
