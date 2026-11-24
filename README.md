@@ -4,7 +4,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/golsa-s-518629303"><img src="https://img.shields.io/badge/LinkedIn-connect-8C1C3A?style=flat-square&logo=linkedin&logoColor=white&labelColor=5E1224" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/open%20to-junior%20roles%20%26%20internships-8C1C3A?style=flat-square&labelColor=5E1224" alt="Open to junior roles and internships">
   <img src="https://img.shields.io/badge/focus-AI%20engineering-8C1C3A?style=flat-square&labelColor=5E1224" alt="Focus: AI engineering">
 </p>
 
@@ -21,7 +20,6 @@ the full-stack apps around them, and the data pipelines that feed them.
 - 🤖 Main interest: **AI engineering**, meaning LLM agents with tool / function calling, model training and evaluation, and checking results independently
 - 🧱 Hands-on full-stack: **Next.js / React / TypeScript**, **PostgreSQL** schemas and SQL, **Python** ETL, **Docker**
 - 🔌 Background in control and embedded systems, so I'm comfortable where software meets sensors and actuators
-- 🌱 Looking for a **junior role or internship** in software / AI engineering
 
 ### ✦ Right now
 
