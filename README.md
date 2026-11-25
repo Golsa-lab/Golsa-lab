@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/golsa-s-518629303"><img src="https://img.shields.io/badge/LinkedIn-connect-8C1C3A?style=flat-square&logo=linkedin&logoColor=white&labelColor=5E1224" alt="LinkedIn"></a>
+  <a href="https://it.linkedin.com/in/golsa-shokri-518629303"><img src="https://img.shields.io/badge/LinkedIn-connect-8C1C3A?style=flat-square&logo=linkedin&logoColor=white&labelColor=5E1224" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/focus-AI%20engineering-8C1C3A?style=flat-square&labelColor=5E1224" alt="Focus: AI engineering">
 </p>
 
